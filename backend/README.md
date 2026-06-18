@@ -97,9 +97,9 @@ Frontend runs on `http://localhost:5173`
 
 > **Note:** JWT tokens expire after 1 hour. If the app appears broken after a break, log out and log back in to get a fresh token.
 
-//Also Disclaimer: If you want to permenently delete an or all employee(s) from the database (no reason to do so in the setup but for later on), 
-//you must do that directly through SQL or the terminal with the command "DELETE FROM employees;" and to reset the employee ID values (so your new employees 
-//wont be counting off the deleted ones): "ALTER TABLE employees AUTO_INCREMENT = 1;"
+Also Disclaimer: If you want to permenently delete an or all employee(s) from the database (no reason to do so in the setup but for later on), 
+you must do that directly through SQL or the terminal with the command "DELETE FROM employees;" and to reset the employee ID values (so your new employees 
+wont be counting off the deleted ones): "ALTER TABLE employees AUTO_INCREMENT = 1;"
 
 ---
 
